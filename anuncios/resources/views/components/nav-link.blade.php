@@ -15,3 +15,6 @@ $classes = ($active ?? false)
 <a href="/formularios" {{ $attributes->merge(['class' => $classes]) }} >
     Formularios
 </a>
+<a href="/cambiarperfil" {{ $attributes->merge(['class' => $classes]) }} >
+    CambiarPerfil
+</a>
